@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elemanları</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Bilgiler</legend>
+        <!--Form Start-->
+        <form action="">
+            <div> <!--İsim Soyisim-->
+                <label for="Name">İsim Soyisim</label>
+                <input type="text" id="name">
+            </div> <br>
+            <div> <!--E-posta-->
+                <label for="e-mail">E-posta:</label>
+                <input type="email" id="e-mail" required placeholder="ornek@gmail.com">
+            </div> <br>
+            <div> <!--Sifre...-->
+                <label for="password">Şifre:</label>
+                <input type="password" id="password">
+            </div> <br>
+            <div> <!--Cinsiyet-->
+                <label for="gender">Cinsiyet</label>
+                <input type="radio" name="gender" > Erkek
+                <input type="radio" name="gender"> Kadın
+            </div> <br>
+            <div> <!--Favori Meyve-->
+                <label for="fruit">Favori Meyve:</label>
+                <select id="city">
+                    <option value="" aria-required="true">Seçiniz</option>
+                    <option value="banana">Muz</option>
+                    <option value="strawberry">Çilek</option>
+                    <option value="apple">Elma</option>
+                    <option value="pear">Armut</option>
+                    <option value="plum">Erik</option>
+                    <option value="cherry">Kiraz</option>
+                </select>
+            </div> <br>
+            <div> <!--Metin Alanı-->
+                <label for="comment">Yorum Satırı:</label>
+                <textarea id="comment" rows="2" cols="100"></textarea>
+            </div> <br>
+            <div> <!--Gönder Butonu-->
+                <input type="submit">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
