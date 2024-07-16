@@ -1,0 +1,94 @@
+/*Sıfırlama-Temel Ayarlar*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f4f4f4; /*Arka Plan*/
+  font-family: arial, sans-serif;
+}
+
+/*Başlığın rengi ve altına gelecek olan linkler ile mesafe(margin) konuldu*/
+h1  {
+  color: white;
+  margin-bottom: 25px;
+}
+h2 {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+/*Linklerin yazı renkleri ve altındaki çizgiler kaldırldı*/
+nav > ul > li > a {
+  text-decoration: none; 
+  color: white; 
+  
+}
+
+ /*Linklerin blok element'ten inline-blok elemente geçişi sağlandı, ve iki link arasına mesafe koyuldu*/
+nav > ul > li {
+  display: inline-block;
+  margin: 0 10px;
+  
+}
+
+/*Article Style*/
+.container-1 {
+  text-align: center; /*Ortalama işlemi*/
+  background-color: #333; /*Arka Plan*/
+  height: 120px; /*Nav arka plan yüksekliği ayarlandı. */
+  color: white;
+  
+}
+.container-2  {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+}
+
+/*Article Style*/
+.art-1 {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  line-height: 50px; /*Yazılar arasındaki mesafe açıldı. */
+  box-shadow: 10px 5px 5px 3px grey; /*Gölge efekti*/
+  border-radius: 20px; 
+  
+}
+.art-2 {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  line-height: 50px; /*Yazılar arasındaki mesafe açıldı. */
+  box-shadow: 10px 5px 5px 3px grey; /*Gölge efekti*/
+  border-radius: 20px; 
+}
+/*Post Art-3*/
+.art-3 {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  line-height: 50px; /*Yazılar arasındaki mesafe açıldı. */
+  box-shadow: 10px 5px 5px 3px grey; /*Gölge efekti*/
+  border-radius: 20px;
+} 
+
+/*Foooter style*/
+.foot {
+  height: 30px;
+  color: white;
+  background-color: #333;
+  padding: 25px;
+  text-align: center;
+}
+/*Kutu içerisindeki linklerin altındaki çizgi kaldırıldı. */
+div > article > a  {
+  text-decoration-line: none;
+  color: #333;
+}
+
+
+
