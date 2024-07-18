@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #FFF2D7;
+  font-style: italic;
+}
+h1 {
+  margin-bottom: 15px;
+}
+.container-1 {
+  text-align: center;
+  background-color: #D8AE7E;
+  height: 80px;
+  padding: 10px;
+}
+header > nav > ul > li > a {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.art-1 {
+  margin-top: 50px;
+  box-shadow: 10px 5px 5px 3px grey;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  
+}
+.art-1{
+  box-shadow: 10px 5px 5px 3px grey; 
+  border-radius: 25px;
+  line-height: 25px; /*yazıların arası açıldı.*/
+  margin-top: 100px;
+  margin-bottom: 8px;
+  padding: 12px 12px;
+  height: 500px;
+}
+img {
+  box-shadow: 10px 5px 5px 3px grey; 
+  border-radius: 25px;
+  padding-left: 5px;
+}
+.p-1 {
+  /* background-color: white; */
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.ul-1 {
+  margin-left: 680px;
+  list-style: none; /*Liste işaretleri kaldırıldı.*/
+}
+.foot-1 {
+  height: 15px;
+  color: white;
+  background-color: #333;
+  padding: 25px;
+  text-align: center;
+}
